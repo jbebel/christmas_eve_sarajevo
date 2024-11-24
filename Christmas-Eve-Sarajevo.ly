@@ -25,7 +25,7 @@ global = {
   s2
   \time 4/4
   s1*5
-  s1\fermata
+  s1
   \time 3/4
   \tempo \markup "Fast Rock" 4=186
   \barNumberCheck 11
@@ -71,35 +71,64 @@ global = {
 }
 
 violin = \relative c'' {
-  
+
 }
 
 electricGuitar = \relative c' {
-  
+  b,8\p
+  <<
+    {
+      r8 g' fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4 ~ |
+      fs8 g fs4 ~ fs8 g fs4\fermata |
+    }
+    \\
+    {
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8 |
+      e4. b8 e4. b8\fermata |
+    }
+
+  >>
+
 }
 
 electricBass = \relative c, {
-  
+
 }
 
 trumpetC = \relative c'' {
-  
+
 }
 
 right = \relative c'' {
-  
+
 }
 
 left = \relative c' {
-  
+
 }
 
 tubularBells = \relative c'' {
-  
+
 }
 
 drum = \drummode {
-  
+
 }
 
 violinPart = \new Staff \with {
@@ -113,19 +142,21 @@ violinPart = \new Staff \with {
 electricGuitarPart = \new Staff \with {
   midiInstrument = "electric guitar (clean)"
   instrumentName = "E.Gt."
-} { \clef "treble_8" <<
-  \global
-  \electricGuitar
->>
+} {
+  \clef "treble_8" <<
+    \global
+    \electricGuitar
+  >>
 }
 
 electricBassPart = \new Staff \with {
   midiInstrument = "electric bass (finger)"
   instrumentName = "E.Bs."
-} { \clef "bass_8" <<
-  \global
-  \electricBass
->>
+} {
+  \clef "bass_8" <<
+    \global
+    \electricBass
+  >>
 }
 
 trumpetCPart = \new Staff \with {
@@ -147,10 +178,11 @@ pianoPart = \new PianoStaff \with {
   >>
   \new Staff = "left" \with {
     midiInstrument = "acoustic grand"
-  } { \clef bass <<
-    \global
-    \left
-  >>
+  } {
+    \clef bass <<
+      \global
+      \left
+    >>
   }
 >>
 
@@ -159,7 +191,7 @@ tubularBellsPart = \new Staff \with {
   midiInstrument = "tubular bells"
 } <<
   \global
-    \tubularBells
+  \tubularBells
 >>
 
 drumsPart = \new DrumStaff \with {
