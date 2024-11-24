@@ -75,7 +75,7 @@ violin = \relative c'' {
 }
 
 electricGuitar = \relative c' {
-  b,8\p
+  b,8\p^\markup {\small "Clean Electric"}
   <<
     {
       r8 g' fs4 ~ fs8 g fs4 ~ |
@@ -87,7 +87,7 @@ electricGuitar = \relative c' {
       fs8 g fs4 ~ fs8 g fs4 ~ |
       fs8 g fs4 ~ fs8 g fs4 ~ |
       fs8 g fs4 ~ fs8 g fs4 ~ |
-      fs8 g fs4 ~ fs8 g fs4\fermata |
+      fs8 g fs4 ~ fs8 g fs4 |
     }
     \\
     {
@@ -100,10 +100,198 @@ electricGuitar = \relative c' {
       e4. b8 e4. b8 |
       e4. b8 e4. b8 |
       e4. b8 e4. b8 |
-      e4. b8 e4. b8\fermata |
+      e4. b8 e4. b8^\fermata |
     }
 
   >>
+  \barNumberCheck 11
+  \set Staff.midiInstrument = "distorted guitar"
+  <b e>4\f^\markup {\small "Distortion"} b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 19
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 27
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 35
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 43
+  <e, b' e>2. |
+  <g d' g> |
+  <c g' c> |
+  <e b' e> |
+  <b fs' b> ~ |
+  <b fs' b> |
+  <b fs' b> ~ |
+  <b fs' b> |
+  <b fs' b> |
+  <b fs' b> |
+  <b fs' b> |
+  <b fs' b>4 <b fs' b>4 <b fs' b>4 |
+  \barNumberCheck 55
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 63
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4\decresc b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 75
+  <b e>4\p b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 83
+  <b e>4\cresc b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 91
+  <b e>4\mp\cresc b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 99
+  <b e>4\mf b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 107
+  <b e>4\f b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck 115
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  <b e>4 b8 e b b |
+  \barNumberCheck123
+  e'4\ff e8 e d c |
+  b4 b8 b a g |
+  a4 a8 a b a |
+  e4 e8 e e4 |
+  <b fs' b>2. ~ |
+  <b fs' b> |
+  <b fs' b> ~ |
+  <b fs' b> |
+  \barNumberCheck 131
+  g''4 fs8 g e4 |
+  R2.
+  g4 fs8 g e4 |
+  R2.
+  g,4 fs8 g e4 |
+  g4 fs8 g e4 |
+  b'4 a8 b g4 |
+  b4 a8 b g4 |
+  \barNumberCheck 139
+  e'4 e8 e d c |
+  b4 b8 b a g |
+  a4 a8 a b a |
+  e4 e8 e e4 |
+  <b fs' b>2. ~ |
+  <b fs' b> |
+  <b fs' b> ~ |
+  <b fs' b> |
+  <b fs' b> |
+  <b fs' b> |
+  <b fs' b> |
+  <b fs' b>4 <b fs' b> <b fs' b> |
+  \barNumberCheck 151
+  e2.-> |
+  d-> |
+  c-> |
+  b-> |
+  e-> |
+  d-> |
+  c-> |
+  b-> |
+  \barNumberCheck 159
+  \tuplet 3/2 4 {
+    b''8( a g) fs( e d ) c( b a) |
+    g( a b) c( d e) fs( g a) |
+    b( a g) fs( e d ) c( b a) |
+    g( a b) c( d e) fs( g a) |
+    b( a g) fs( e d ) c( b a) |
+    g( a b) c( d e) fs( g a) |
+    b( a g) fs( e d ) c( b a) |
+    g( a b) c( d e) fs( g a) |
+  }
+  \barNumberCheck 167
+  g,2.-> |
+  a-> |
+  b->|
+  d-> |
+  <e, b' e>-> ~ |
+  <e b' e> ~ |
+  <e b' e> ~ |
+  <e b' e> |
+  <e b' e>4-> r4 r4 |
+  \barNumberCheck 176
 
 }
 
