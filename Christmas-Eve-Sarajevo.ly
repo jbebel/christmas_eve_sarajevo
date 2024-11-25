@@ -503,7 +503,181 @@ tubularBells = \relative c'' {
 }
 
 drum = \drummode {
-
+  r8 |
+  R1*3 |
+  R2 |
+  R1*5 |
+  R1\fermata |
+  \barNumberCheck 11
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 7 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  \barNumberCheck 19
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  \barNumberCheck 27
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  \barNumberCheck 35
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 7 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  \barNumberCheck 43
+  \repeat percent 4 {
+    <<
+      { cymc2. }
+      \\
+      { bd4 r r }
+      \\
+      { toml4 8 8 8 8 }
+    >> |
+  }
+  \repeat percent 2 {
+    <<
+      { <cymr toml>4}
+      \\
+      { bd4 }
+    >> r4 r |
+    r r toml |
+  }
+  \repeat percent 4 {
+    <<
+      { <cymr toml>4}
+      \\
+      { bd4 }
+    >> r4 r |
+  }
+  \barNumberCheck 55
+  <<
+    { <cymr toml>4}
+    \\
+    { bd4 }
+  >> r4 r |
+  R2.*2
+  r4 r toml
+  s2.*4
+  \barNumberCheck 63
+  s2.*12
+  \barNumberCheck 75
+  s2.*8
+  \barNumberCheck 83
+  s2.*8
+  \barNumberCheck 91
+  s2.*8
+  \barNumberCheck 99
+  s2.*8
+  \barNumberCheck 107
+  s2.*8
+  \barNumberCheck 115
+  s2.*8
+  \barNumberCheck 123
+  s2.*8
+  \barNumberCheck 131
+  s2.*8
+  \barNumberCheck 139
+  s2.*12
+  \barNumberCheck 151
+  s2.*8
+  \barNumberCheck 159
+  s2.*8
+  \barNumberCheck 167
+  s2.*9
+  \fine
+  \barNumberCheck 176
 }
 
 violinPart = \new Staff \with {
