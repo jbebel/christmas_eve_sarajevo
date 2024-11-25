@@ -296,7 +296,194 @@ electricGuitar = \relative c' {
 }
 
 electricBass = \relative c, {
-
+  r8 |
+  R1*3 |
+  R2 |
+  R1*5 |
+  R1\fermata |
+  \barNumberCheck 11
+  e,4->\f e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e e |
+  \barNumberCheck 19
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e e |
+  \barNumberCheck 27
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e e |
+  \barNumberCheck 35
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  \barNumberCheck 43
+  e4-> e8 e e fs |
+  g4-> g8 g a b |
+  c4-> c8 c d c |
+  e4-> e8 e e4 |
+  b2.-> ~ |
+  b |
+  b-> ~ |
+  b |
+  b-> |
+  b-> |
+  b-> |
+  b4-> b b |
+  \barNumberCheck 55
+  e,-> r r |
+  R2.*2
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
+  \barNumberCheck 63
+  e2. |
+  R2.*2 |
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
+  e2.\decresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  \barNumberCheck 75
+  e\p ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  \barNumberCheck 83
+  e\cresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  \barNumberCheck 91
+  e\mp\cresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  \barNumberCheck 99
+  e4->\mf e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4 e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4 e e |
+  \barNumberCheck 107
+  e4->\f e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4 e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4 e e |
+  \barNumberCheck 115
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4 e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4-> e8 e e e |
+  e4 e e |
+  \barNumberCheck 123
+  e4->\ff e8 e e fs |
+  g4-> g8 g a b |
+  c4-> c8 c d c |
+  e4-> e8 e e4 |
+  b2.-> ~ |
+  b |
+  b-> ~ |
+  b |
+  \barNumberCheck 131
+  R2. |
+  e,4-> e8 e e4 |
+  R2. |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  \barNumberCheck 139
+  e4-> e8 e e fs |
+  g4-> g8 g a b |
+  c4-> c8 c d c |
+  e4-> e8 e e4 |
+  b2.-> ~ |
+  b |
+  b-> ~ |
+  b |
+  b-> |
+  b-> |
+  b-> |
+  b4-> b b |
+  \barNumberCheck 151
+  e2.-> |
+  d-> |
+  c-> |
+  b-> |
+  e-> |
+  d-> |
+  c-> |
+  b-> |
+  \barNumberCheck 159
+  e,4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  e4-> e8 e e4 |
+  \barNumberCheck 167
+  e-> r r |
+  e-> r r |
+  e-> r r |
+  e-> r r |
+  e2.-> ~ |
+  e ~ |
+  e ~ |
+  e |
+  e4-> r r |
+  \barNumberCheck 176
 }
 
 trumpetC = \relative c'' {
