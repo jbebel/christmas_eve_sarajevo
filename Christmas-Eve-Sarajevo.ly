@@ -499,7 +499,61 @@ left = \relative c' {
 }
 
 tubularBells = \relative c'' {
-
+  r8 |
+  R1*3 |
+  R2 |
+  R1*5 |
+  R1\fermata |
+  \barNumberCheck 11
+  R2.*7
+  r4 r e,
+  \barNumberCheck 19
+  e2 b'4 |
+  b2 a4 |
+  g2 fs4 |
+  e2. |
+  R2.*3
+  r4 r e |
+  \barNumberCheck 27
+  e2 b'4 |
+  b2 a4 |
+  g2 fs4 |
+  e2. |
+  R2.*4
+  \barNumberCheck 35
+  s2.*8
+  \barNumberCheck 43
+  s2.*12
+  \barNumberCheck 55
+  s2.*8
+  \barNumberCheck 63
+  s2.*12
+  \barNumberCheck 75
+  s2.*8
+  \barNumberCheck 83
+  s2.*8
+  \barNumberCheck 91
+  s2.*8
+  \barNumberCheck 99
+  s2.*8
+  \barNumberCheck 107
+  s2.*8
+  \barNumberCheck 115
+  s2.*8
+  \barNumberCheck 123
+  s2.*8
+  \barNumberCheck 131
+  s2.*8
+  \barNumberCheck 139
+  s2.*12
+  \barNumberCheck 151
+  s2.*8
+  \barNumberCheck 159
+  s2.*8
+  \barNumberCheck 167
+  s2.*9
+  \fine
+  \barNumberCheck 176
 }
 
 drum = \drummode {
