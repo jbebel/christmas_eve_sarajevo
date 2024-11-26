@@ -521,37 +521,44 @@ tubularBells = \relative c'' {
   e2. |
   R2.*4
   \barNumberCheck 35
-  s2.*8
+  R2.*8
   \barNumberCheck 43
-  s2.*12
+  R2.*12
   \barNumberCheck 55
-  s2.*8
+  R2.*8
   \barNumberCheck 63
-  s2.*12
+  R2.*12
   \barNumberCheck 75
-  s2.*8
+  R2.*8
   \barNumberCheck 83
-  s2.*8
+  e'2. |
+  d |
+  c |
+  b |
+  e2. |
+  d |
+  c |
+  b |
   \barNumberCheck 91
-  s2.*8
+  R2.*8
   \barNumberCheck 99
-  s2.*8
+  R2.*8
   \barNumberCheck 107
-  s2.*8
+  R2.*8
   \barNumberCheck 115
-  s2.*8
+  R2.*8
   \barNumberCheck 123
-  s2.*8
+  R2.*8
   \barNumberCheck 131
-  s2.*8
+  R2.*8
   \barNumberCheck 139
-  s2.*12
+  R2.*12
   \barNumberCheck 151
-  s2.*8
+  R2.*8
   \barNumberCheck 159
-  s2.*8
+  R2.*8
   \barNumberCheck 167
-  s2.*9
+  R2.*9
   \fine
   \barNumberCheck 176
 }
