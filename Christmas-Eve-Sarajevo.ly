@@ -703,33 +703,307 @@ drum = \drummode {
   >> r4 r |
   R2.*2
   r4 r toml
-  s2.*4
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 4 4 }
+  >> |
+  \repeat percent 3 {
+    toml4 4 4 |
+  }
   \barNumberCheck 63
-  s2.*12
+  <<
+    { <cymr toml>4 }
+    \\
+    {bd4}
+  >> r4 r |
+  R2.*2
+  r4 r toml
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 4 4 }
+  >> |
+  \repeat percent 3 {
+    toml4 4 4 |
+  }
+  <<
+    { <cymr toml>4 }
+    \\
+    {bd4}
+  >> r4 r |
+  R2.*3
   \barNumberCheck 75
-  s2.*8
+  R2.*8
   \barNumberCheck 83
-  s2.*8
+  R2.*7
+  cymc2.:32\p\< ~ |
   \barNumberCheck 91
-  s2.*8
-  \barNumberCheck 99
-  s2.*8
+  cymc2.\mp |
+  R2.*2
+  cymc2.:32\p\< ~ |
+  cymc2.\mp |
+  R2.
+  <<
+    {
+      cymc2.:32\p\< ~ |
+      cymc2.:32 ~ |
+      \barNumberCheck 99
+      cymc2.\mf
+    }
+    \\
+    {
+      s2.*2 |
+      bd4 r r
+    }
+    \\
+    {
+      s2.*2 |
+      toml4 8 8 8 8
+    }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  \repeat percent 3 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
   \barNumberCheck 107
-  s2.*8
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
   \barNumberCheck 115
-  s2.*8
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 2 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
+  <<
+    { toml4 4 4 }
+    \\
+    { bd4 r r }
+  >> |
   \barNumberCheck 123
-  s2.*8
+  \repeat percent 4 {
+    <<
+      { cymc2. }
+      \\
+      { bd4 r r }
+      \\
+      { toml4 8 8 8 8 }
+    >> |
+  }
+  <<
+    { <cymr toml>4}
+    \\
+    { bd4 }
+  >> r4 r |
+  r r toml |
+  <<
+    { <cymr toml>4}
+    \\
+    { bd4 }
+  >> r4 r |
+  r r toml |
   \barNumberCheck 131
-  s2.*8
+  R2. |
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  R2. |
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 4 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
   \barNumberCheck 139
-  s2.*12
+  \repeat percent 4 {
+    <<
+      { cymc2. }
+      \\
+      { bd4 r r }
+      \\
+      { toml4 8 8 8 8 }
+    >> |
+  }
+  <<
+    { <cymr toml>4}
+    \\
+    { bd4 }
+  >> r4 r |
+  r r toml |
+  <<
+    { <cymr toml>4}
+    \\
+    { bd4 }
+  >> r4 r |
+  r r toml |
+  \repeat percent 3 {
+    <<
+      { <cymr toml>4}
+      \\
+      { bd4 }
+    >> r4 r |
+  }
+  <<
+    { <cymr toml>4 4 4 }
+    \\
+    { bd4 4 4 }
+  >>
   \barNumberCheck 151
-  s2.*8
+  \repeat percent 3 {
+    <<
+      { <cymr toml>4}
+      \\
+      { bd4 }
+    >> r4 r |
+  }
+  <<
+    { <cymr toml>4 4 4 }
+    \\
+    { bd4 4 4 }
+  >>
+  \repeat percent 3 {
+    <<
+      { <cymr toml>4}
+      \\
+      { bd4 }
+    >> r4 r |
+  }
+  <<
+    { <cymr toml>4 4 4 }
+    \\
+    { bd4 4 4 }
+  >>
   \barNumberCheck 159
-  s2.*8
+  <<
+    { cymc2. }
+    \\
+    { bd4 r r }
+    \\
+    { toml4 8 8 8 8 }
+  >> |
+  \repeat percent 7 {
+    <<
+      { toml4 8 8 8 8 }
+      \\
+      { bd4 r r }
+    >> |
+  }
   \barNumberCheck 167
-  s2.*9
+  \repeat percent 5 {
+    <<
+      { <cymr toml>4}
+      \\
+      { bd4 }
+    >> r4 r |
+  }
+  R2.
+  cymc2.:32 ~ |
+  cymc2.:32 |
+  <<
+    { <cymr toml>4}
+    \\
+    { bd4 }
+  >> r4 r |
   \fine
   \barNumberCheck 176
 }
