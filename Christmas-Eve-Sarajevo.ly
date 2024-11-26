@@ -1090,5 +1090,17 @@ drumsPart = \new DrumStaff \with {
     \drumsPart
   >>
   \layout { }
+}
+
+\score {
+  \unfoldRepeats <<
+    \violinPart
+    \electricGuitarPart
+    \electricBassPart
+    \trumpetCPart
+    \pianoPart
+    \tubularBellsPart
+    \drumsPart
+  >>
   \midi { }
 }
