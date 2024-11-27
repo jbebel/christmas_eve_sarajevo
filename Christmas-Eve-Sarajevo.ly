@@ -1512,28 +1512,53 @@ drumsPart = \new DrumStaff \with {
   \drum
 >>
 
-\score {
-  <<
-    \violinPart
-    \electricGuitarPart
-    \electricBassPart
-    \trumpetCPart
-    \pianoPart
-    \tubularBellsPart
-    \drumsPart
-  >>
-  \layout { }
+\book {
+  \bookOutputSuffix "Score"
+  \score {
+    <<
+      \violinPart
+      \electricGuitarPart
+      \electricBassPart
+      \trumpetCPart
+      \pianoPart
+      \tubularBellsPart
+      \drumsPart
+    >>
+    \layout { }
+  }
 }
 
-\score {
-  \unfoldRepeats <<
-    \violinPart
-    \electricGuitarPart
-    \electricBassPart
-    \trumpetCPart
-    \pianoMidiPart
-    \tubularBellsPart
-    \drumsPart
-  >>
-  \midi { }
+\book  {
+  \bookOutputSuffix "Piano"
+  \score {
+    <<
+      \pianoPart
+    >>
+    \layout { }
+  }
+}
+
+\book  {
+  \bookOutputSuffix "Bass"
+  \score {
+    <<
+      \electricBassPart
+    >>
+    \layout { }
+  }
+}
+
+\book {
+  \score {
+    \unfoldRepeats <<
+      \violinPart
+      \electricGuitarPart
+      \electricBassPart
+      \trumpetCPart
+      \pianoMidiPart
+      \tubularBellsPart
+      \drumsPart
+    >>
+    \midi { }
+  }
 }
