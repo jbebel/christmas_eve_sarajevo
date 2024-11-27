@@ -71,7 +71,58 @@ global = {
 }
 
 violin = \relative c'' {
+  r8 |
+  R1 |
+  r2 r4 r8 \ottava #-1 d,,\upbow\mf |
+  e(\downbow b') b( a) g( fs) e( d) |
+  e( fs) g( a) |
+  b1\> |
+  r2\! r4 r8 d,\upbow\mf |
+  e( b') b( a) g( fs) e( d) |
+  e2.\> r8\! d\upbow\mf |
+  e( b') b( a) g( fs) e( d) |
+  e2.\downbow\>-"rit." ~ e8 d\p\fermata |
+  \ottava #0
 
+  \barNumberCheck 11
+  s2.*8
+  \barNumberCheck 19
+  s2.*8
+  \barNumberCheck 27
+  s2.*8
+  \barNumberCheck 35
+  s2.*8
+  \barNumberCheck 43
+  s2.*12
+  \barNumberCheck 55
+  s2.*8
+  \barNumberCheck 63
+  s2.*12
+  \barNumberCheck 75
+  s2.*8
+  \barNumberCheck 83
+  s2.*8
+  \barNumberCheck 91
+  s2.*8
+  \barNumberCheck 99
+  s2.*8
+  \barNumberCheck 107
+  s2.*8
+  \barNumberCheck 115
+  s2.*8
+  \barNumberCheck 123
+  s2.*8
+  \barNumberCheck 131
+  s2.*8
+  \barNumberCheck 139
+  s2.*12
+  \barNumberCheck 151
+  s2.*8
+  \barNumberCheck 159
+  s2.*8
+  \barNumberCheck 167
+  s2.*9
+  \barNumberCheck 176
 }
 
 electricGuitar = \relative c' {
