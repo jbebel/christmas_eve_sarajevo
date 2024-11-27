@@ -85,43 +85,43 @@ violin = \relative c'' {
   \ottava #0
 
   \barNumberCheck 11
-  s2.*8
+  R2.*8
   \barNumberCheck 19
-  s2.*8
+  R2.*8
   \barNumberCheck 27
-  s2.*8
+  R2.*8
   \barNumberCheck 35
-  s2.*8
+  R2.*8
   \barNumberCheck 43
-  s2.*12
+  R2.*12
   \barNumberCheck 55
-  s2.*8
+  R2.*8
   \barNumberCheck 63
-  s2.*12
+  R2.*12
   \barNumberCheck 75
-  s2.*8
+  R2.*8
   \barNumberCheck 83
-  s2.*8
+  R2.*8
   \barNumberCheck 91
-  s2.*8
+  R2.*8
   \barNumberCheck 99
-  s2.*8
+  R2.*8
   \barNumberCheck 107
-  s2.*8
+  R2.*8
   \barNumberCheck 115
-  s2.*8
+  R2.*8
   \barNumberCheck 123
-  s2.*8
+  R2.*8
   \barNumberCheck 131
-  s2.*8
+  R2.*8
   \barNumberCheck 139
-  s2.*12
+  R2.*12
   \barNumberCheck 151
-  s2.*8
+  R2.*8
   \barNumberCheck 159
-  s2.*8
+  R2.*8
   \barNumberCheck 167
-  s2.*9
+  R2.*9
   \barNumberCheck 176
 }
 
@@ -151,7 +151,7 @@ electricGuitar = \relative c' {
       e4. b8 e4. b8 |
       e4. b8 e4. b8 |
       e4. b8 e4. b8 |
-      e4. b8 e4. b8^\fermata |
+      e4.-"rit." b8 e4. b8^\fermata |
     }
 
   >>
@@ -534,6 +534,56 @@ electricBass = \relative c, {
   e ~ |
   e |
   e4-> r r |
+  \barNumberCheck 176
+}
+
+flute = \relative c'' {
+  r8 |
+  R1*3 |
+  R2 |
+  R1*2 |
+  r2 r4 r8 d\mf |
+  e( b') b( a) g( fs) e( d) |
+  e2.\> r8\! d\mf |
+  e(\>-"rit." b') b( a) g( fs) e( d)\p\fermata |
+  \barNumberCheck 11
+  R2.*8
+  \barNumberCheck 19
+  R2.*8
+  \barNumberCheck 27
+  R2.*8
+  \barNumberCheck 35
+  R2.*8
+  \barNumberCheck 43
+  R2.*12
+  \barNumberCheck 55
+  R2.*8
+  \barNumberCheck 63
+  R2.*12
+  \barNumberCheck 75
+  R2.*8
+  \barNumberCheck 83
+  R2.*8
+  \barNumberCheck 91
+  R2.*8
+  \barNumberCheck 99
+  R2.*8
+  \barNumberCheck 107
+  R2.*8
+  \barNumberCheck 115
+  R2.*8
+  \barNumberCheck 123
+  R2.*8
+  \barNumberCheck 131
+  R2.*8
+  \barNumberCheck 139
+  R2.*12
+  \barNumberCheck 151
+  R2.*8
+  \barNumberCheck 159
+  R2.*8
+  \barNumberCheck 167
+  R2.*9
   \barNumberCheck 176
 }
 
@@ -1498,6 +1548,14 @@ electricBassPart = \new Staff \with {
   >>
 }
 
+flutePart = \new Staff \with {
+  instrumentName = "Fl."
+  midiInstrument = "flute"
+} <<
+  \global
+  \flute
+>>
+
 trumpetCPart = \new Staff \with {
   instrumentName = "Tr.C."
   midiInstrument = "trumpet"
@@ -1570,6 +1628,7 @@ drumsPart = \new DrumStaff \with {
       \violinPart
       \electricGuitarPart
       \electricBassPart
+      \flutePart
       \trumpetCPart
       \pianoPart
       \tubularBellsPart
@@ -1582,9 +1641,11 @@ drumsPart = \new DrumStaff \with {
 \book  {
   \bookOutputSuffix "Piano"
   \score {
-    <<
-      \pianoPart
-    >>
+    \compressMMRests {
+      <<
+        \pianoPart
+      >>
+    }
     \layout { }
   }
 }
@@ -1592,9 +1653,35 @@ drumsPart = \new DrumStaff \with {
 \book  {
   \bookOutputSuffix "Bass"
   \score {
-    <<
-      \electricBassPart
-    >>
+    \compressMMRests {
+      <<
+        \electricBassPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+\book  {
+  \bookOutputSuffix "Flute"
+  \score {
+    \compressMMRests {
+      <<
+        \flutePart
+      >>
+    }
+    \layout { }
+  }
+}
+
+\book  {
+  \bookOutputSuffix "Violin"
+  \score {
+    \compressMMRests {
+      <<
+        \violinPart
+      >>
+    }
     \layout { }
   }
 }
@@ -1605,6 +1692,7 @@ drumsPart = \new DrumStaff \with {
       \violinPart
       \electricGuitarPart
       \electricBassPart
+      \flutePart
       \trumpetCPart
       \pianoMidiPart
       \tubularBellsPart
