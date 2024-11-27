@@ -491,11 +491,415 @@ trumpetC = \relative c'' {
 }
 
 right = \relative c'' {
+  r8 |
+  R1*3 |
+  R2
+  R1*5
+  R1
+  \barNumberCheck 11
+  R2.*8
+  \barNumberCheck 19
+  R2.*8
+  \barNumberCheck 27
+  R2.*8
+  \barNumberCheck 35
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  \barNumberCheck 43
+  <e e'>4-> q8 q <d d'> <c c'> |
+  <b b'>4-> q8 q <a a'> <g g'> |
+  <a a'>4-> q8 q <b b'> <a a'> |
+  e'4-> e8 e e4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  \barNumberCheck 55
+  e2. |
+  R2.*2
+  r4 r <e e'>->
+  q4-> <d d'>-> <c c'>-> |
+  q-> <b b'>-> <a a'>-> |
+  <b b'>-> <a a'>-> <g g'>-> |
+  q-> <fs fs'>-> <e e'>-> |
+  \barNumberCheck 63
+  <e e'>2.-> |
+  R2.*2
+  r4 r <e' e'>->
+  q4-> <d d'>-> <c c'>-> |
+  q-> <b b'>-> <a a'>-> |
+  <b b'>-> <a a'>-> <g g'>-> |
+  q-> <fs fs'>-> <e e'>-> |
+  g'4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g << {e'4} \\ {e,4} >> |
+  \barNumberCheck 75
+  <<
+    {
+      e'2 b'4 |
+      b2 a4 |
+      g2 fs4 |
+      e2 d4 |
+      e2 b'4 |
+      b2 a4 |
+      g2 fs4 |
+      e2 d4 |
+    }
+    \\
+    {
+      g,4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+    }
+  >>
 
+  \barNumberCheck 83
+  <<
+    {
+      e'2 b'4 |
+      b2 a4 |
+      g2 fs4 |
+      e2 d4 |
+      e2 b'4 |
+      b2 a4 |
+      g2 fs4 |
+      e2 b'4 |
+    }
+    \\
+    {
+      g,4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+    }
+  >>
+  \barNumberCheck 91
+  <<
+    {
+      e'2 b'4 |
+      b2 a4 |
+      g2 fs4 |
+      e2 d4 |
+      e2 b'4 |
+      b2 a4 |
+      g2 fs4 |
+      e2 d4 |
+    }
+    \\
+    {
+      g,4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+    }
+  >>
+  \barNumberCheck 99
+  R2.*8
+  \barNumberCheck 107
+  R2.*8
+  \barNumberCheck 115
+  <g g'>4 <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4 <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4 <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4 <fs fs'>8 <g g'> <e e'>4 |
+  <b' g' b>4 <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4 <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4 <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4 <a fs' a>8 <b g' b> <g e' g>4 |
+  \barNumberCheck 123
+  <e e'>4-> q8 q <d d'> <c c'> |
+  <b b'>4-> q8 q <a a'> <g g'> |
+  <a a'>4-> q8 q <b b'> <a a'> |
+  e'4-> e8 e e4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  \barNumberCheck 131
+  <g' g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  R2. |
+  <g g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  R2. |
+  <g, g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  <b' g' b>4-> <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4-> <a fs' a>8 <b g' b> <g e' g>4 |
+  \barNumberCheck 139
+  <e e'>4-> q8 q <d d'> <c c'> |
+  <b b'>4-> q8 q <a a'> <g g'> |
+  <a a'>4-> q8 q <b b'> <a a'> |
+  e'4-> e8 e e4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  \barNumberCheck 151
+  <g g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  <g g'>4-> <fs fs'>8 <g g'> <e e'>4 |
+  <b' g' b>4-> <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4-> <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4-> <a fs' a>8 <b g' b> <g e' g>4 |
+  <b g' b>4-> <a fs' a>8 <b g' b> <g e' g>4 |
+  \barNumberCheck 159
+  <g' b e>-> <fs a>8 <g b> <e g>4 |
+  <g b e>-> <fs a>8 <g b> <e g>4 |
+  <g b e>-> <fs a>8 <g b> <e g>4 |
+  <g b e>-> <fs a>8 <g b> <e g>4 |
+  <e e'>4-> q8 q q q |
+  <e e'>4-> q8 q q q |
+  <e e'>4-> q8 q q q |
+  <e e'>4-> q8 q q q |
+  \barNumberCheck 167
+  q4-> r r |
+  q4-> r r |
+  q4-> r r |
+  q4-> r r |
+  q2.-> ~ |
+  q2. ~ |
+  q2. ~ |
+  q2.|
+  q4 r r |
+  \barNumberCheck 176
+}
+
+pianoDynamics = {
+
+  s8 |
+  s1*3 |
+  s2
+  s1*5
+  s1
+  \barNumberCheck 11
+  s2.*8\f
+  \barNumberCheck 19
+  s2.*8
+  \barNumberCheck 27
+  s2.*8
+  \barNumberCheck 35
+  s2.*8
+  \barNumberCheck 43
+  s2.*12
+  \barNumberCheck 55
+  s2.*8
+  \barNumberCheck 63
+  s2.*8
+  s2.*4\decresc
+  \barNumberCheck 75
+  s2.*8\p
+  \barNumberCheck 83
+  s2.*8\cresc
+  \barNumberCheck 91
+  s2.*8\mp\cresc
+  \barNumberCheck 99
+  s2.*8\mf
+  \barNumberCheck 107
+  s2.*8\f
+  \barNumberCheck 115
+  s2.*8
+  \barNumberCheck 123
+  s2.*8\ff
+  \barNumberCheck 131
+  s2.*8
+  \barNumberCheck 139
+  s2.*12
+  \barNumberCheck 151
+  s2.*8
+  \barNumberCheck 159
+  s2.*8
+  \barNumberCheck 167
+  s2.*9
+  \fine
+  \barNumberCheck 176
 }
 
 left = \relative c' {
-
+  r8 |
+  R1*3 |
+  R2
+  R1*5
+  R1
+  \barNumberCheck 11
+  <e,, e,>4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4 q q |
+  \barNumberCheck 19
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4 q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4 q q |
+  \barNumberCheck 27
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4 q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4 q q |
+  \barNumberCheck 35
+  R2.*8
+  \barNumberCheck 43
+  <e e,>4-> q8 q q <fs fs,> |
+  <g g,>4-> q8 q <a a,> <b b,> |
+  <c c,>4-> q8 q <d d,> <c c,> |
+  <e e,>4 -> q8 q q4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  \barNumberCheck 55
+  <e e,>4-> <d d,>-> <c c,>-> |
+  q-> <b b,>-> <a a,>-> |
+  <b b,>-> <a a,>-> <g g,>-> |
+  q-> <fs fs,>-> <e e,>-> |
+  q2. |
+  R2.*2
+  r4 r  <e' e,>->
+  \barNumberCheck 63
+  <e e,>4-> <d d,>-> <c c,>-> |
+  q-> <b b,>-> <a a,>-> |
+  <b b,>-> <a a,>-> <g g,>-> |
+  q-> <fs fs,>-> <e e,>-> |
+  q2. |
+  R2.*3
+  <e' e,>2.->
+  R2.*3
+  \barNumberCheck 75
+  R2.*8
+  \barNumberCheck 83
+  R2.*8
+  \barNumberCheck 91
+  R2.*8
+  \barNumberCheck 99
+  <e, e,>4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  \barNumberCheck 107
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  \barNumberCheck 115
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  \barNumberCheck 123
+  <e e,>4-> q8 q q <fs fs,> |
+  <g g,>4-> q8 q <a a,> <b b,> |
+  <c c,>4-> q8 q <d d,> <c c,> |
+  <e e,>4 -> q8 q q4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  \barNumberCheck 131
+  R2. |
+  <g, g,>4-> <fs fs,>8 <g g,> <e e,>4 |
+  R2. |
+  <g g,>4-> <fs fs,>8 <g g,> <e e,>4 |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  \barNumberCheck 139
+  <e e,>4-> q8 q q <fs fs,> |
+  <g g,>4-> q8 q <a a,> <b b,> |
+  <c c,>4-> q8 q <d d,> <c c,> |
+  <e e,>4 -> q8 q q4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  \barNumberCheck 151
+  <e, e,>4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  \barNumberCheck 159
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  q4-> q8 q q q |
+  \barNumberCheck 167
+  q4-> r r |
+  q4-> r r |
+  q4-> r r |
+  q4-> r r |
+  q2.-> ~ |
+  q2. ~ |
+  q2. ~ |
+  q2. |
+  q4 r r |
+  \barNumberCheck 176
 }
 
 tubularBells = \relative c'' {
@@ -1060,12 +1464,34 @@ pianoPart = \new PianoStaff \with {
     \global
     \right
   >>
+  \new Dynamics \pianoDynamics
   \new Staff = "left" \with {
     midiInstrument = "acoustic grand"
   } {
     \clef bass <<
       \global
       \left
+    >>
+  }
+>>
+
+pianoMidiPart = \new PianoStaff \with {
+  instrumentName = "Pno."
+} <<
+  \new Staff = "right" \with {
+    midiInstrument = "acoustic grand"
+  } <<
+    \global
+    \right
+    \pianoDynamics
+  >>
+  \new Staff = "left" \with {
+    midiInstrument = "acoustic grand"
+  } {
+    \clef bass <<
+      \global
+      \left
+      \pianoDynamics
     >>
   }
 >>
@@ -1105,7 +1531,7 @@ drumsPart = \new DrumStaff \with {
     \electricGuitarPart
     \electricBassPart
     \trumpetCPart
-    \pianoPart
+    \pianoMidiPart
     \tubularBellsPart
     \drumsPart
   >>
