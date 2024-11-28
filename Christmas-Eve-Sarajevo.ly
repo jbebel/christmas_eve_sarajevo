@@ -1686,6 +1686,18 @@ drumsPart = \new DrumStaff \with {
   }
 }
 
+\book  {
+  \bookOutputSuffix "Chimes"
+  \score {
+    \compressMMRests {
+      <<
+        \tubularBellsPart
+      >>
+    }
+    \layout { }
+  }
+}
+
 \book {
   \score {
     \unfoldRepeats <<
