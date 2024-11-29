@@ -588,7 +588,115 @@ flute = \relative c'' {
 }
 
 trumpetC = \relative c'' {
+  r8 |
+  R1*3 |
+  R2
+  R1*5
+  R1
+  \barNumberCheck 11
+  R2.*8
+  \barNumberCheck 19
+  e2. |
+  d |
+  c |
+  b |
+  R2.*4
+  \barNumberCheck 27
+  e2. |
+  d |
+  c |
+  b |
+  R2.*4
+  \barNumberCheck 35
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  \barNumberCheck 43
+  e'4-> e8 e d c |
+  b4-> b8 b a g |
+  a4-> a8 a b a |
+  e4-> e8 e e4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  <b, b'>8-> <cs cs'> <ds ds'> <e e'> <fs fs'> <g g'> |
+  <b, b'>8-> <cs cs'> <ds ds'> <e e'> <fs fs'> <g g'> |
+  \barNumberCheck 55
+  <e e'>4-> r r |
+  R2.*2 |
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
+  \barNumberCheck 63
+  e2.-> |
+  R2.*2 |
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
 
+  R2.*4
+  \barNumberCheck 75
+  R2.*8
+  \barNumberCheck 83
+  e'2. |
+  d |
+  c |
+  b |
+  e |
+  d |
+  c |
+  b |
+  \barNumberCheck 91
+  <c a>2.-> |
+  <b e,>-> |
+  <c a>2.-> |
+  <b e,>-> |
+  <c a>2.-> |
+  <b e,>-> |
+  <c a>2.-> |
+  <b e,>-> |
+  \barNumberCheck 99
+  R2.*8
+  \barNumberCheck 107
+  R2.*8
+  \barNumberCheck 115
+  <c a>2.-> |
+  <b e,>-> |
+  <c a>2.-> |
+  <b e,>-> |
+  <c a>2.-> |
+  <b e,>-> |
+  <c a>2.-> |
+  <b e,>-> |
+  \barNumberCheck 123
+  R2.*4
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  \barNumberCheck 131
+  R2.*8
+  \barNumberCheck 139
+  R2.*12
+  \barNumberCheck 151
+  R2.*8
+  \barNumberCheck 159
+  R2.*8
+  \barNumberCheck 167
+  R2.*9
+  \barNumberCheck 176
 }
 
 right = \relative c'' {
