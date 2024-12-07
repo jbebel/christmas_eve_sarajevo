@@ -655,50 +655,28 @@ trumpetC = \relative c'' {
   c-> b-> a-> |
   b-> a-> g-> |
   g-> fs-> e-> |
-  <<
-    {
-      g4->\decresc fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4\! |
-    }
-    \\
-    {
-      e2.->\decresc ~ |
-      e ~ |
-      e ~ |
-      e2 e4\mf
-    }
-  >>
+
+  e2.->\decresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+
 
   \barNumberCheck 75
-  <<
-    {
-      g4->\p fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-      g4-> fs8 g e4 |
-    }
-    \\
-    {
-      e2\mf b'4 |
-      b2 a4 |
-      g2 fs4 |
-      e2 d4 |
-      e2 b'4 |
-      b2 a4 |
-      g2 fs4 |
-      e2 d4 |
-    }
-  >>
+  e\mf\decresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e\pp |
+
+
   \barNumberCheck 83
   <<
     {
-            g4-> fs8 g e4 |
+      g4-> fs8 g e4 |
       g4-> fs8 g e4 |
       g4-> fs8 g e4 |
       g4-> fs8 g e4 |
@@ -708,17 +686,17 @@ trumpetC = \relative c'' {
       g4-> fs8 g e4 |
     }
     \\
-  {
-  e'2. |
-  d |
-  c |
-  b |
-  e |
-  d |
-  c |
-  b |
-  }
->>
+    {
+      e'2. |
+      d |
+      c |
+      b |
+      e |
+      d |
+      c |
+      b |
+    }
+  >>
   \barNumberCheck 91
   <c a>2.-> |
   <b e,>-> |
@@ -1690,7 +1668,8 @@ drum = \drummode {
 }
 
 violinPart = \new Staff \with {
-  instrumentName = "Vl."
+  instrumentName = "Violin"
+  shortInstrumentName = "Vl."
   midiInstrument = "violin"
 } <<
   \global
@@ -1699,7 +1678,8 @@ violinPart = \new Staff \with {
 
 electricGuitarPart = \new Staff \with {
   midiInstrument = "electric guitar (clean)"
-  instrumentName = "E.Gt."
+  instrumentName = "Electric guitar"
+  shortInstrumentName = "E.Gt."
 } {
   \clef "treble_8" <<
     \global
@@ -1709,7 +1689,8 @@ electricGuitarPart = \new Staff \with {
 
 electricBassPart = \new Staff \with {
   midiInstrument = "electric bass (finger)"
-  instrumentName = "E.Bs."
+  instrumentName = "Electric bass"
+  shortInstrumentName = "E.Bs."
 } {
   \clef "bass_8" <<
     \global
@@ -1718,7 +1699,8 @@ electricBassPart = \new Staff \with {
 }
 
 flutePart = \new Staff \with {
-  instrumentName = "Fl."
+  instrumentName = "Flute"
+  shortInstrumentName = "Fl."
   midiInstrument = "flute"
 } <<
   \global
@@ -1726,7 +1708,8 @@ flutePart = \new Staff \with {
 >>
 
 trumpetCPart = \new Staff \with {
-  instrumentName = "Tr.C."
+  instrumentName = "Trumpet in C"
+  shortInstrumentName = "Tr.C."
   midiInstrument = "trumpet"
 } <<
   \global
@@ -1734,7 +1717,170 @@ trumpetCPart = \new Staff \with {
 >>
 
 pianoPart = \new PianoStaff \with {
-  instrumentName = "Pno."
+  instrumentName = "Piano"
+  shortInstrumentName = "Pno."
+} <<
+  \new Staff = "right" \with {
+  } <<
+    \global
+    \right
+  >>
+  \new Dynamics \pianoDynamics
+  \new Staff = "left" \with {
+  } {
+    \clef bass <<
+      \global
+      \left
+    >>
+  }
+>>
+
+tubularBellsPart = \new Staff \with {
+  instrumentName = "Tubular bells"
+  shortInstrumentName = "Tub."
+  midiInstrument = "tubular bells"
+} <<
+  \global
+  \tubularBells
+>>
+
+drumsPart = \new DrumStaff \with {
+  \consists "Instrument_name_engraver"
+  instrumentName = "Drums"
+  shortInstrumentName = "Dr."
+} <<
+  \global
+  \drum
+>>
+
+\book {
+  \bookOutputSuffix "Score"
+  \paper {
+    indent = 3.0\cm
+    short-indent = 1.5\cm
+  }
+  \score {
+    <<
+      \violinPart
+      \electricGuitarPart
+      \electricBassPart
+      \flutePart
+      \trumpetCPart
+      \pianoPart
+      \tubularBellsPart
+      \drumsPart
+    >>
+    \layout {
+      \context {
+        \Staff
+        \RemoveEmptyStaves
+      }
+    }
+  }
+}
+
+violinBookPart = \new Staff \with {
+  midiInstrument = "violin"
+} <<
+  \global
+  \violin
+>>
+
+\book  {
+  \bookOutputSuffix "Violin"
+  \header {
+    instrument = "Violin"
+  }
+  \score {
+
+    \compressMMRests {
+      <<
+        \violinBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+electricGuitarBookPart = \new Staff \with {
+  midiInstrument = "electric guitar (clean)"
+} {
+  \clef "treble_8" <<
+    \global
+    \electricGuitar
+  >>
+}
+
+electricBassBookPart = \new Staff \with {
+  midiInstrument = "electric bass (finger)"
+} {
+  \clef "bass_8" <<
+    \global
+    \electricBass
+  >>
+}
+
+\book  {
+  \bookOutputSuffix "Bass"
+  \header {
+    instrument = "Bass"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \electricBassBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+fluteBookPart = \new Staff \with {
+  midiInstrument = "flute"
+} <<
+  \global
+  \flute
+>>
+
+\book  {
+  \bookOutputSuffix "Flute"
+  \header {
+    instrument = "Flute"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \fluteBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+trumpetCBookPart = \new Staff \with {
+  midiInstrument = "trumpet"
+} <<
+  \global
+  \trumpetC
+>>
+
+\book  {
+  \bookOutputSuffix "Trumpet"
+  \header {
+    instrument = "Trumpet"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \trumpetCBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+pianoBookPart = \new PianoStaff \with {
+
 } <<
   \new Staff = "right" \with {
     midiInstrument = "acoustic grand"
@@ -1753,9 +1899,54 @@ pianoPart = \new PianoStaff \with {
   }
 >>
 
-pianoMidiPart = \new PianoStaff \with {
-  instrumentName = "Pno."
+\book  {
+  \bookOutputSuffix "Piano"
+  \header {
+    instrument = "Piano"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \pianoBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+tubularBellsBookPart = \new Staff \with {
+  midiInstrument = "tubular bells"
 } <<
+  \global
+  \tubularBells
+>>
+
+\book  {
+  \bookOutputSuffix "Chimes"
+  \header {
+    instrument = "Tubular Bells"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \tubularBellsBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
+drumsBookPart = \new DrumStaff \with {
+  \consists "Instrument_name_engraver"
+} <<
+  \global
+  \drum
+>>
+
+
+
+
+pianoMidiPart = \new PianoStaff <<
   \new Staff = "right" \with {
     midiInstrument = "acoustic grand"
   } <<
@@ -1773,99 +1964,6 @@ pianoMidiPart = \new PianoStaff \with {
     >>
   }
 >>
-
-tubularBellsPart = \new Staff \with {
-  instrumentName = "Tub."
-  midiInstrument = "tubular bells"
-} <<
-  \global
-  \tubularBells
->>
-
-drumsPart = \new DrumStaff \with {
-  \consists "Instrument_name_engraver"
-  instrumentName = "Dr."
-} <<
-  \global
-  \drum
->>
-
-\book {
-  \bookOutputSuffix "Score"
-  \score {
-    <<
-      \violinPart
-      \electricGuitarPart
-      \electricBassPart
-      \flutePart
-      \trumpetCPart
-      \pianoPart
-      \tubularBellsPart
-      \drumsPart
-    >>
-    \layout { }
-  }
-}
-
-\book  {
-  \bookOutputSuffix "Piano"
-  \score {
-    \compressMMRests {
-      <<
-        \pianoPart
-      >>
-    }
-    \layout { }
-  }
-}
-
-\book  {
-  \bookOutputSuffix "Bass"
-  \score {
-    \compressMMRests {
-      <<
-        \electricBassPart
-      >>
-    }
-    \layout { }
-  }
-}
-
-\book  {
-  \bookOutputSuffix "Flute"
-  \score {
-    \compressMMRests {
-      <<
-        \flutePart
-      >>
-    }
-    \layout { }
-  }
-}
-
-\book  {
-  \bookOutputSuffix "Violin"
-  \score {
-    \compressMMRests {
-      <<
-        \violinPart
-      >>
-    }
-    \layout { }
-  }
-}
-
-\book  {
-  \bookOutputSuffix "Chimes"
-  \score {
-    \compressMMRests {
-      <<
-        \tubularBellsPart
-      >>
-    }
-    \layout { }
-  }
-}
 
 \book {
   \score {
