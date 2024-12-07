@@ -1811,6 +1811,20 @@ electricGuitarBookPart = \new Staff \with {
   >>
 }
 
+\book  {
+  \bookOutputSuffix "Guitar"
+  \header {
+    instrument = "Guitar"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \electricGuitarBookPart
+      >>
+    }
+    \layout { }
+  }
+}
 electricBassBookPart = \new Staff \with {
   midiInstrument = "electric bass (finger)"
 } {
@@ -1943,8 +1957,20 @@ drumsBookPart = \new DrumStaff \with {
   \drum
 >>
 
-
-
+\book  {
+  \bookOutputSuffix "Drums"
+  \header {
+    instrument = "Drums"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \drumsBookPart
+      >>
+    }
+    \layout { }
+  }
+}
 
 pianoMidiPart = \new PianoStaff <<
   \new Staff = "right" \with {
