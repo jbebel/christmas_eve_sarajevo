@@ -713,22 +713,23 @@ trumpetC = \relative c'' {
   <d b a'> |
   <c a a'> |
   <b e, g'> |
-<< {
-  <e c b'> |
-  <d b a'> |
-  <c a a'> |
-  <b e, g'> |
-   }
-   \\
-   {
-     g4 fs8 g e4 |
-     g4 fs8 g e4 |
-     g4 fs8 g e4 |
-     g4 fs8 g e4 |
-   }
->>
+  <<
+    {
+      <e c b'> |
+      <d b a'> |
+      <c a a'> |
+      <b e, g'> |
+    }
+    \\
+    {
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+    }
+  >>
   \barNumberCheck 123
-    <<
+  <<
     {
       e'4-> e8 e d c |
       b4-> b8 b a g |
@@ -748,9 +749,59 @@ trumpetC = \relative c'' {
   b,8-> cs ds e fs g |
   a-> b a4 g |
   \barNumberCheck 131
-  R2.*8
+  g fs8 g e4 |
+  <g g'> <fs fs'>8 <g g'> <e e'>4 |
+  g fs8 g e4 |
+  <<
+    {
+      b'2( a8 g) |
+      e2. |
+      g |
+      d' |
+      e |
+    }
+    \\
+    {
+      g,4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      <g b>4-> <fs a>8 <g b> <e g>4 |
+      <g b>4-> <fs a>8 <g b> <e g>4 |
+    }
+  >>
   \barNumberCheck 139
-  R2.*12
+  <<
+    {
+      e'4-> e8 e d c |
+      b4-> b8 b a g |
+      a4-> a8 a b a |
+      e4-> e8 e e4 |
+    }
+    \\
+    {
+      e4-> e8 e fs g |
+      g4-> g8 g a b |
+      c4-> c8 c d c |
+      e4-> e8 e e4 |
+    }
+  >>
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  <<
+    {
+      a8-> as b c cs ds |
+    }
+
+    \\
+    {
+      b,8-> cs ds e fs g |
+    }
+  >> |
   \barNumberCheck 151
   R2.*8
   \barNumberCheck 159
