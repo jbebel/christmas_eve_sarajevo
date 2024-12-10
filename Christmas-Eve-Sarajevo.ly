@@ -83,23 +83,300 @@ violin = \relative c'' {
   e( b') b( a) g( fs) e( d) |
   e2.\downbow\>-"rit." ~ e8 d\p\fermata |
   \ottava #0
-
   \barNumberCheck 11
   R2.*8
   \barNumberCheck 19
-  R2.*8
+  e'2. |
+  <e d> |
+  <e c> |
+  <e b> |
+  R2.*4
   \barNumberCheck 27
-  R2.*8
+  e2. |
+  <e d> |
+  <e c> |
+  <e b> |
+  R2.*4
   \barNumberCheck 35
-  R2.*8
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
   \barNumberCheck 43
-  R2.*12
+  e'4-> e8 e d c |
+  b4-> b8 b a g |
+  a4-> a8 a b a |
+  e4-> e8 e e4 |
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
   \barNumberCheck 55
-  R2.*8
+  e4-> r4 r |
+  R2.*7 |
   \barNumberCheck 63
-  R2.*12
+  R2.*3 |
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
+
+  e2.->\decresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+
+
   \barNumberCheck 75
+  e\mf\decresc ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e ~ |
+  e\pp |
+  \barNumberCheck 83
+  R2.*4
+  <e' c>2. |
+  <d b> |
+  <c a> |
+  <b e,> |
+  \barNumberCheck 91
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  \barNumberCheck 99
   R2.*8
+  \barNumberCheck 107
+  e2. |
+  d |
+  c |
+  b |
+  <e c> |
+  <d b> |
+  <c a> |
+  <b e,> |
+  \barNumberCheck 115
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  <e a, c,>2.-> |
+  <e b e,>-> |
+  <e a, c,>2.-> |
+  <e b e,>-> |
+
+  \barNumberCheck 123
+  e4-> e8 e d c |
+  b4-> b8 b a g |
+  a4-> a8 a b a |
+  e4-> e8 e e4 |
+
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  \barNumberCheck 131
+  g fs8 g e4 |
+  g fs8 g e4 |
+  g fs8 g e4 |
+
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+
+  \barNumberCheck 139
+  e'4-> e8 e d c |
+  b4-> b8 b a g |
+  a4-> a8 a b a |
+  e4-> e8 e e4 |
+
+  b8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+
+  b,8-> cs ds e fs g |
+  \barNumberCheck 151
+  <<
+    {
+      e2. |
+      d |
+      c |
+      b |
+      e2. |
+      d |
+      c |
+      b |
+    }
+    \\
+    {
+      g'4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+    }
+
+  >>
+  \barNumberCheck 159
+
+  <g b>4 <fs a>8 <g b> <e g>4 |
+  <g b>4 <fs a>8 <g b> <e g>4 |
+  <g b>4 <fs a>8 <g b> <e g>4 |
+  <g b>4 <fs a>8 <g b> <e g>4 |
+  <e e'>4 q8 q q q |
+  q4 q8 q q q |
+  q4 q8 q q q |
+  q4 q8 q q q |
+  \barNumberCheck 167
+
+  <e e'>4-> r r |
+  q-> r r |
+  q-> r r |
+  q-> r r |
+  q2.-> ~ |
+  q ~ |
+  q ~ |
+  q |
+  q4-> r4 r4 |
+  \barNumberCheck 176
+}
+
+leadGuitar = \relative c' {
+  r8 |
+  R1*3 |
+  R2
+  R1*5
+  R1
+  \barNumberCheck 11
+  <e, b' e>2.->\mf ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+
+  \barNumberCheck 19
+  q ~ |
+  q ~ |
+  q ~ |
+  q |
+
+  q2.-> ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  \barNumberCheck 27
+  q ~ |
+  q ~ |
+  q ~ |
+  q |
+
+  q2.-> ~ |
+  q ~ |
+  q ~ |
+  q |
+  \barNumberCheck 35
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  g4-.-> fs8 g e4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  <g b>4-> <fs a>8 <g b> <e g>4 |
+  \barNumberCheck 43
+  <<
+    {
+      e'4-> e8 e d c |
+      b4-> b8 b a g |
+      a4-> a8 a b a |
+      e4-> e8 e e4 |
+    }
+    \\
+    {
+      e4-> e8 e fs g |
+      g4-> g8 g a b |
+      c4-> c8 c d c |
+      e4-> e8 e e4 |
+    }
+  >>
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  <<
+    {
+      a8-> as b c cs ds |
+    }
+
+    \\
+    {
+      b,8-> cs ds e fs g |
+    }
+  >> |
+
+  \barNumberCheck 55
+  <<{e'4->} \\ {e,4->}>> r4 r |
+  R2.*2 |
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
+  \barNumberCheck 63
+  e2.-> |
+  R2.*2 |
+  r4 r e'-> |
+  e-> d-> c-> |
+  c-> b-> a-> |
+  b-> a-> g-> |
+  g-> fs-> e-> |
+
+  <e b'>2.->\decresc ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+
+
+  \barNumberCheck 75
+  q\mf\decresc ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q ~ |
+  q\pp |
   \barNumberCheck 83
   R2.*8
   \barNumberCheck 91
@@ -107,21 +384,166 @@ violin = \relative c'' {
   \barNumberCheck 99
   R2.*8
   \barNumberCheck 107
-  R2.*8
+  R2.*4
+  e'2. |
+  d |
+  c |
+  b |
   \barNumberCheck 115
-  R2.*8
+  <e c b'> |
+  <d b a'> |
+  <c a a'> |
+  <b e, g'> |
+  <<
+    {
+      <e c b'> |
+      <d b a'> |
+      <c a a'> |
+      <b e, g'> |
+    }
+    \\
+    {
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+    }
+  >>
   \barNumberCheck 123
-  R2.*8
+  <<
+    {
+      e'4-> e8 e d c |
+      b4-> b8 b a g |
+      a4-> a8 a b a |
+      e4-> e8 e e4 |
+    }
+    \\
+    {
+      e4-> e8 e fs g |
+      g4-> g8 g a b |
+      c4-> c8 c d c |
+      e4-> e8 e e4 |
+    }
+  >>
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
   \barNumberCheck 131
-  R2.*8
+  g fs8 g e4 |
+  <g g'> <fs fs'>8 <g g'> <e e'>4 |
+  g fs8 g e4 |
+  <<
+    {
+      b'2( a8 g) |
+      e2. |
+      g |
+      d' |
+      e |
+    }
+    \\
+    {
+      g,4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      g4-.-> fs8 g e4 |
+      <g b>4-> <fs a>8 <g b> <e g>4 |
+      <g b>4-> <fs a>8 <g b> <e g>4 |
+    }
+  >>
   \barNumberCheck 139
-  R2.*12
+  <<
+    {
+      e'4-> e8 e d c |
+      b4-> b8 b a g |
+      a4-> a8 a b a |
+      e4-> e8 e e4 |
+    }
+    \\
+    {
+      e4-> e8 e fs g |
+      g4-> g8 g a b |
+      c4-> c8 c d c |
+      e4-> e8 e e4 |
+    }
+  >>
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  a-> b a4 g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  b,8-> cs ds e fs g |
+  <<
+    {
+      a8-> as b c cs ds |
+    }
+
+    \\
+    {
+      b,8-> cs ds e fs g |
+    }
+  >> |
   \barNumberCheck 151
-  R2.*8
+  <<
+    {
+      e'2. |
+      e |
+      e |
+      e |
+      e |
+      e |
+      e |
+      e |
+    }
+    \\
+    {
+      e,2. |
+      d |
+      c |
+      b |
+      e2. |
+      d |
+      c |
+      b |
+    }
+    \\
+    {
+      g'4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      g4 fs8 g e4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+      <g b>4 <fs a>8 <g b> <e g>4 |
+    }
+
+  >>
   \barNumberCheck 159
-  R2.*8
+
+  \tuplet 3/2 4 {
+    <b'' g>8( <a fs> <g e>) <fs d>( <e c> <d b> ) <c a>( <b g> <a fs>) |
+    <g e>( <a fs> <b g>) <c a> ( <d b> <e c>) <fs d>( <g e> <a fs>) |
+    <b g>( <a fs> <g e>) <fs d>( <e c> <d b> ) <c a>( <b g> <a fs>) |
+    <g e>( <a fs> <b g>) <c a> ( <d b> <e c>) <fs d>( <g e> <a fs>) |
+    <b g>( <a fs> <g e>) <fs d>( <e c> <d b> ) <c a>( <b g> <a fs>) |
+    <g e>( <a fs> <b g>) <c a> ( <d b> <e c>) <fs d>( <g e> <a fs>) |
+    <b g>( <a fs> <g e>) <fs d>( <e c> <d b> ) <c a>( <b g> <a fs>) |
+    <g e>( <a fs> <b g>) <c a> ( <d b> <e c>) <fs d>( <g e> <a fs>) |
+  }
+
   \barNumberCheck 167
-  R2.*9
+
+  <g, b,>2.-> |
+  <a d,>-> |
+  <b e,>-> |
+  <d g,>-> |
+
+  <e b>2.-> ~ |
+  q ~ |
+  q ~ |
+  q |
+  q4-> r4 r4 |
   \barNumberCheck 176
 }
 
@@ -1837,6 +2259,17 @@ electricGuitarPart = \new Staff \with {
   >>
 }
 
+leadGuitarPart = \new Staff \with {
+  midiInstrument = "distorted guitar"
+  instrumentName = "Lead Guitar"
+  shortInstrumentName = "E.Gt."
+} {
+  \clef "treble_8" <<
+    \global
+    \leadGuitar
+  >>
+}
+
 electricBassPart = \new Staff \with {
   midiInstrument = "electric bass (finger)"
   instrumentName = "Electric bass"
@@ -1912,10 +2345,11 @@ drumsPart = \new DrumStaff \with {
   \score {
     <<
       \violinPart
+      \leadGuitarPart
       \electricGuitarPart
       \electricBassPart
       \flutePart
-      \trumpetCPart
+      %\trumpetCPart
       \pianoPart
       \tubularBellsPart
       \drumsPart
@@ -1975,6 +2409,31 @@ electricGuitarBookPart = \new Staff \with {
     \layout { }
   }
 }
+
+leadGuitarBookPart = \new Staff \with {
+  midiInstrument = "distorted guitar"
+} {
+  \clef "treble_8" <<
+    \global
+    \leadGuitar
+  >>
+}
+
+\book  {
+  \bookOutputSuffix "leadGuitar"
+  \header {
+    instrument = "Guitar"
+  }
+  \score {
+    \compressMMRests {
+      <<
+        \leadGuitarBookPart
+      >>
+    }
+    \layout { }
+  }
+}
+
 electricBassBookPart = \new Staff \with {
   midiInstrument = "electric bass (finger)"
 } {
@@ -2145,10 +2604,11 @@ pianoMidiPart = \new PianoStaff <<
   \score {
     \unfoldRepeats <<
       \violinPart
+      \leadGuitarPart
       \electricGuitarPart
       \electricBassPart
       \flutePart
-      \trumpetCPart
+      %\trumpetCPart
       \pianoMidiPart
       \tubularBellsPart
       \drumsPart
