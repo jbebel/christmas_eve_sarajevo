@@ -336,7 +336,7 @@ leadGuitar = \relative c' {
   b,8-> cs ds e fs g |
   <<
     {
-      a8-> as b c cs ds |
+      a8-> b c cs d ds |
     }
 
     \\
@@ -390,16 +390,16 @@ leadGuitar = \relative c' {
   c |
   b |
   \barNumberCheck 115
-  <e c b'> |
-  <d b a'> |
-  <c a a'> |
-  <b e, g'> |
+  e |
+  d |
+  c |
+  b |
   <<
     {
-      <e c b'> |
-      <d b a'> |
-      <c a a'> |
-      <b e, g'> |
+      e |
+      d |
+      c |
+      b |
     }
     \\
     {
@@ -430,9 +430,9 @@ leadGuitar = \relative c' {
   b,8-> cs ds e fs g |
   a-> b a4 g |
   \barNumberCheck 131
-  g fs8 g e4 |
-  <g g'> <fs fs'>8 <g g'> <e e'>4 |
-  g fs8 g e4 |
+  R2. |
+  <g g'>4 <fs fs'>8 <g g'> <e e'>4 |
+  R2. |
   <<
     {
       b'2( a8 g) |
@@ -475,7 +475,7 @@ leadGuitar = \relative c' {
   b,8-> cs ds e fs g |
   <<
     {
-      a8-> as b c cs ds |
+      a8-> b c cs d ds |
     }
 
     \\
